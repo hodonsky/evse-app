@@ -1,0 +1,12 @@
+{
+  "entryPoints": ["src"],
+  "entryPointStrategy": "expand",
+  "out":"docs",
+  "includeVersion":true,
+  "hideGenerator": true,
+  "githubPages": true,
+  "readme": "README.md",
+  "titleLink": "index.html",
+  "excludePrivate": false,  
+  "excludeInternal": false
+}

@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "HO2 LIFE - Pilot Charger",
   "author": "eric@ho2.life",
-  "license": "ISC",
+  "license": "RPL",
   "scripts": {
     "test": "mocha --exit --require ./node_modules/babel-core/register",
     "build-legacy": "npx babel --config-file ./babel.json --out-dir ./build --source-maps --verbose --extensions '.js,.ts' ./src",

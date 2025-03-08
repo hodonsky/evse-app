@@ -198,7 +198,7 @@ const charger = new EVSE({
         tls     : {
           enabled: true,
           cert   : [
-            readFileSync( "/usr/local/share/ca-certificates/nginx.crt", "utf-8" )
+            readFileSync( process.env.NODE_EXTRA_CA_CERTS , "utf-8" )
           ]  
         },
         reconnect:{
